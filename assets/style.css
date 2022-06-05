@@ -32,6 +32,32 @@ body{
     cursor: pointer;
 }
 
+.button:hover{
+    font-weight: bold;
+}
+
 .double{
     flex-basis: 50%;
+}
+
+.display{
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333333;
+    font-size: 2em;
+}
+
+.operator,
+.negative,
+.equal{
+    background: rgb(37, 76, 252);
+    color: white;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 5px;
+    padding: 30px;
+    margin-top: 20px;
 }
